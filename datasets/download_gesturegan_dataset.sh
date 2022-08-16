@@ -2,7 +2,7 @@
 
 FILE=$1
 
-i43f [[ $FILE != "ntu_image_skeleton" && $FILE != "senz3d_image_skeleton" ]]; then
+if [[ $FILE != "ntu_image_skeleton" && $FILE != "senz3d_image_skeleton" ]]; then
   echo "Available datasets are ntu_image_skeleton, senz3d_image_skeleton"
   exit 1
 fi
