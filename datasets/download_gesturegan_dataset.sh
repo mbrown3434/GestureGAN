@@ -1,3 +1,4 @@
+#!/bin/bash
 FILE=$1
 
 if [[ $FILE != "ntu_image_skeleton" && $FILE != "senz3d_image_skeleton" ]]; then
