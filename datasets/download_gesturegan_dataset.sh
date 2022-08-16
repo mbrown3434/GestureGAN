@@ -1,11 +1,9 @@
 FILE=$1
-echo "hi"
 
 if [[ $FILE != "ntu_image_skeleton" && $FILE != "senz3d_image_skeleton" ]]; then
   echo "Available datasets are ntu_image_skeleton, senz3d_image_skeleton"
   exit 1
 fi
-echo "hi"
 
 echo "Specified [$FILE]"
 
